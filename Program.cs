@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace perpustakaan
+namespace perpustakaan smartsis
 {
     class Program
     {
@@ -20,10 +20,10 @@ namespace perpustakaan
             int x = int.Parse(Console.ReadLine());
 
             ArrayList arr = new ArrayList();
-            arr.Add("Koala Kumal");
-            arr.Add("Manusia Setengah Salmon");
-            arr.Add("Single");
-            arr.Add("Your Name");
+            arr.Add("Ensiklopedia Lautan");
+            arr.Add("Ponyo Little Fish");
+            arr.Add("Euphoria");
+            arr.Add("I Want To Die But I Wanna Eat Teokkboki");
 
             switch (x)
             {
