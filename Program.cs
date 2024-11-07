@@ -2,13 +2,13 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace perpustakaan
+namespace perpustakaan smatsis
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("-------Perpustakaan-------");
+            Console.WriteLine("-------Perpustakaan Smartsis-------");
             Console.WriteLine("1. Tambah Buku");
             Console.WriteLine("2. Daftar Buku");
             Console.WriteLine("3. Cari buku ");
@@ -20,10 +20,10 @@ namespace perpustakaan
             int x = int.Parse(Console.ReadLine());
 
             ArrayList arr = new ArrayList();
-            arr.Add("Koala Kumal");
-            arr.Add("Manusia Setengah Salmon");
-            arr.Add("Single");
-            arr.Add("Your Name");
+            arr.Add("Kim Jinyoung 1987");
+            arr.Add("Miko S5");
+            arr.Add("Siner");
+            arr.Add("Euphoria");
 
             switch (x)
             {
