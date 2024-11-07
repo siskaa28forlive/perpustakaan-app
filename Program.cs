@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace perpustakaan
+namespace perpustakaan sismart
 {
     class Program
     {
@@ -20,10 +20,10 @@ namespace perpustakaan
             int x = int.Parse(Console.ReadLine());
 
             ArrayList arr = new ArrayList();
-            arr.Add("Koala Kumal");
-            arr.Add("Manusia Setengah Salmon");
-            arr.Add("Single");
-            arr.Add("Your Name");
+            arr.Add("Love Yourself");
+            arr.Add("Cooking Journey");
+            arr.Add("Euphoria");
+            arr.Add("Tell me");
 
             switch (x)
             {
